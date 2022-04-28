@@ -1,0 +1,25 @@
+.jumbotron {
+  padding: 5rem;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(img/pedro.jpg);
+  color: aliceblue;
+  font-size: 20px;
+  background-size: cover;
+  background-position: center;
+  height: 550px;
+}
+
+#projects {
+  background-image: linear-gradient(rgba(3, 9, 30, 0.7), rgba(4, 9, 30.7)), url(img/pedro.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.h2 {
+  background-color: aqua;
+}
+.h6 {
+  font-size: 13px;
+  color: black;
+  position: relative;
+  top: 40px;
+}
