@@ -1,24 +1,216 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+}
+.animated-1 {
+  font-size: 60px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.anim {
+  background-color: #185a7d;
+}
+body {
+  background-color: #77bcd6;
+}
 .jumbotron {
-  padding: 5rem;
-  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(img/pedro.jpg);
-  color: aliceblue;
+  background-color: #185a7d;
+  padding-top: 6rem;
+  padding-bottom: 2rem;
+}
+.nav-item {
   font-size: 20px;
-  background-size: cover;
-  background-position: center;
+  background-color: black;
+  padding-top: 1rem;
+  justify-content: center;
+  font-weight: 900;
+  text-decoration: none;
+  background: linear-gradient(to right, white 50%, #eb5e28 50%, #19ceda);
+  background-size: 200%;
+  color: #eb5e28;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 0.5s;
+}
+.navbar-brand {
+  font-size: 20px;
+  background-color: black;
+  padding-top: 1rem;
+  justify-content: center;
+  font-weight: 900;
+  text-decoration: none;
+  background: linear-gradient(to right, white 50%, #eb5e28 50%, #19ceda);
+  background-size: 200%;
+  color: #eb5e28;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 0.5s;
+}
+.navbar-brand:hover {
+  background-position: -100%;
+}
+.container {
+  margin-top: 3%;
+  background-color: #77bcd6;
+}
+.nav-item:hover {
+  background-position: -100%;
+}
+.display-4 {
+  color: #e8f1f8;
+  font-weight: 700;
+  text-shadow: 5px 5px 5px #eb5e28;
+  text-decoration: none;
+}
+.display-4:hover {
+  color: #eb5e28;
+}
+.lead {
+  color: #e8f1f8;
+  font-weight: 400;
+}
+.article-header {
+  font-size: 30px;
+  font-weight: 700;
+  text-shadow: 5px 5px 5px #14100f;
+  background-color: #77bcd6;
+}
+.small {
+  font-size: 20px;
+  font-weight: 500;
+}
+.article-header:hover {
+  color: #eb5e28;
+}
+.card-header {
+  background-color: white;
+  box-shadow: 5px 5px 5px #eb5e28;
+}
+#article {
+  background-color: #77bcd6;
+}
+.card-main {
+  background-color: transparent;
+}
+/* start rotation card */
+div.card {
+  background-color: white;
+  box-shadow: 5px 5px 5px #eb5e28;
+}
+div.card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 10px 30px -5px rgba(10, 16, 34, 0.2);
+}
+.card-footer {
+  background-color: white;
+  box-shadow: 5px 5px 5px #eb5e28;
+}
+.button {
+  background-color: #77bcd6;
+}
+.skill-header {
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+  text-shadow: 5px 5px 5px #14100f;
+}
+.skill-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
 }
 
-#projects {
-  background-image: linear-gradient(rgba(3, 9, 30, 0.7), rgba(4, 9, 30.7)), url(img/pedro.jpg);
-  background-size: cover;
-  background-position: center;
-  position: relative;
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
 }
-.h2 {
-  background-color: aqua;
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
 }
-.h6 {
-  font-size: 13px;
-  color: black;
-  position: relative;
-  top: 40px;
+.btn-1 {
+  background-color: #eb5e28;
+  font-size: 20px;
+  font-weight: 500;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+}
+.btn-1:hover {
+  color: #eb5e28;
+  background-color: white;
+}
+.skill-header:hover {
+  color: #eb5e28;
+  transform: scale(1.2);
+}
+.skill-tit {
+  font-size: 20px;
+  font-weight: 500;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+.body-footer-text {
+  background-color: #185a7d;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 2rem;
+  text-decoration: none;
+  color: white;
+}
+.footer-text {
+  color: white;
+  text-decoration: none;
+}
+.footer-text:hover {
+  color: #eb5e28;
+}
+.social-ig {
+  color: white;
+  font-size: 25px;
+}
+.social-ig:hover {
+  color: #eb5e28;
+}
+.social-github {
+  padding-left: 1rem;
+  color: white;
+  font-size: 25px;
+}
+.social-github:hover {
+  color: #eb5e28;
+}
+.social-linked {
+  padding-left: 1rem;
+  color: white;
+  font-size: 25px;
+}
+.social-linked:hover {
+  color: #eb5e28;
 }
