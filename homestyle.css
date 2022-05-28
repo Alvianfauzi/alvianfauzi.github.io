@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.text {
+  color: black;
+}
+body {
+}
+.animated-1 {
+  font-size: 60px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.anim {
+  background-color: #185a7d;
+}
+body {
+  background-color: black;
+}
+
+.nav-item {
+  font-size: 20px;
+  background-color: white;
+  padding-top: 1rem;
+  justify-content: center;
+  font-weight: 900;
+  text-decoration: none;
+  background: linear-gradient(to right, white 50%, #eb5e28 50%, #19ceda);
+  background-size: 200%;
+  color: #eb5e28;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 0.5s;
+}
+.navbar-brand {
+  font-size: 20px;
+  background-color: white;
+  padding-top: 1rem;
+  justify-content: center;
+  font-weight: 900;
+  text-decoration: none;
+  background: linear-gradient(to right, white 50%, #eb5e28 50%, #19ceda);
+  background-size: 200%;
+  color: #eb5e28;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 0.5s;
+}
+.navbar-brand:hover {
+  background-position: -100%;
+}
+.container {
+  margin-top: 3%;
+  background-color: black;
+}
+.nav-item:hover {
+  background-position: -100%;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.body-footer-text {
+  background-color: #eb5e28;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 2rem;
+  text-decoration: none;
+  color: white;
+}
+.footer-text {
+  color: black;
+  text-decoration: none;
+}
+.footer-text:hover {
+  color: white;
+}
+.social-ig {
+  color: white;
+  font-size: 25px;
+}
+.social-ig:hover {
+  color: black;
+}
+.social-github {
+  padding-left: 1rem;
+  color: white;
+  font-size: 25px;
+}
+.social-github:hover {
+  color: black;
+}
+.social-linked {
+  padding-left: 1rem;
+  color: white;
+  font-size: 25px;
+}
+.social-linked:hover {
+  color: black;
+}
+.card-img-img {
+  width: 750px;
+  height: 250px;
+}
+.card-title {
+  color: black;
+  text-decoration: none;
+  font-style: none;
+  list-style: none;
+}
+.jumbo {
+  padding-top: 8rem;
+}
+.link-text {
+  color: #eb5e28;
+  text-decoration: none;
+}
+.container {
+  padding-top: 8rem;
+}
+.display-4 {
+  color: black;
+  font-weight: 400;
+  text-shadow: 5px 5px 5px #eb5e28;
+  text-decoration: none;
+}
+.display-4:hover {
+  color: #eb5e28;
+}
+.info-foll {
+  font-weight: 700;
+  color: black;
+  text-align: center;
+}
+.card-header {
+  border: 4px solid;
+  background-color: #eb5e28;
+}
+.img {
+  width: 50px;
+  height: 50px;
+}
+.posting {
+  padding-right: 3rem;
+}
+.name-anyone {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: 700;
+  padding-left: 1rem;
+}
+.int {
+  padding-top: 1rem;
+  font-size: 20px;
+}
+.button-post {
+  padding-right: 4rem;
+}
+.com {
+}
+.photos {
+  width: 100%;
+  height: auto;
+  max-width: 700px;
+}
+.trend {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
