@@ -24,30 +24,41 @@
     <!-- Montserrat Font -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" />
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow fixed-top p-1">
+    <header class="navbar navbar-expand-lg navbar-dark bg-transparent shadow fixed-top p-1">
       <div class="container-md">
-        <a class="navbar-brand" href="#"><h1><i class="bi bi-envelope-paper-fill p-2"></i>My Portfolio</h1></a>
+        <a class="navbar-brand" href="index.html"
+          ><h1><i class="bi bi-envelope-paper-fill p-2"></i>My Portfolio</h1></a
+        >
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">HOMES</a>
+              <a class="nav-link active" aria-current="page" href="index.html">HOMES</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">NOW</a>
+              <a class="nav-link" href="now.html">NOW</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">PORTFOLIO</a>
+              <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">CONTACT</a>
+              <a class="nav-link" href="mailto: alvianfauzi6293@gmail.com">CONTACT</a>
             </li>
           </ul>
         </div>
       </div>
-    </nav>
+      <nav class="navbar navbar-light bg-transparent">
+        <div class="container-fluid">
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline-warning" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    </header>
+    
     <section class="jumbotron p-6 text-center">
       <img src="img/PP.jpg" alt="profile" width="200" class="rounded-circle img-thumbnail" />
       <a href="" class="display-4"><h1>ALVIAN FAUZI</h1></a>
@@ -84,28 +95,30 @@
                     <div class="card">
                       <img src="img/p1.png" class="card-img-top" alt="..." />
                       <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h5 class="card-title">Flying Submarine</h5>
+                        <p class="card-text">My final project for thesis "Flying Submarine" using Solidwork 2016 
+                          12/08/2016 <br></p>
                         
                       </div>
                     </div>
                   </dov>
                   <dov class="col-md-4 p-2">
                     <div class="card">
-                      <img src="img/p1.png" class="card-img-top" alt="..." />
+                      <img src="img/cos1.jpg" class="card-img-top" alt="..." />
                       <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h5 class="card-title">Water Tank Amphibious Aircraft</h5>
+                        <p class="card-text">Final project for students conceptual designs Water Tank Amphibious Aircraft using Solidwork 2016.</p>
                         
                       </div>
                     </div>
                   </dov>
                   <dov class="col-md-4 p-2">
                     <div class="card">
-                      <img src="img/p1.png" class="card-img-top" alt="..." />
+                      <img src="img/dr.JPG" class="card-img-top" alt="..."  />
                       <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">Drone Spraying Agriculture</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        
                         
                       </div>
                     </div>
@@ -130,7 +143,7 @@
         <div class="skill-row">
           <div class="row">
             <div class="col-md-4">
-              <div class="container">
+              <div class="card mb-3">
               <img class="skill-img" src="img/turbine-icon-symbol-flat-illustration-for-graphic-and-web-design-free-vector-removebg-preview.png" alt="image">
               <div class="skill-title">
                 <p class="skill-tit">AIRCRAFT ENGINEERING</p>
@@ -139,7 +152,7 @@
               </div>
             </div>
             <div class="col-md-4">
-              <div class="container">
+              <div class="card mb-3">
               <img class="skill-img" src="img/code-removebg-preview.png" alt="image">
               <div class="skill-title">
                 <p class="skill-tit">PROGRAMING</p>
@@ -148,7 +161,7 @@
               </div>
             </div>
             <div class="col-md-4">
-              <div class="container">
+              <div class="card rounded">
               <img class="skill-img" src="img/3d-computer-graphics-computer-icons-3d-printing-iconfinder-png-favpng-ey58nqLaEXPin5nVMWQx7H6a3-removebg-preview.png" alt="image">
               <div class="skill-title">
                 <p class="skill-tit">3D MODELLING</p>
@@ -161,8 +174,8 @@
         </div>
       </div>
     </section>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#185a7d" fill-opacity="1" d="M0,128L24,128C48,128,96,128,144,160C192,192,240,256,288,277.3C336,299,384,277,432,272C480,267,528,277,576,245.3C624,213,672,139,720,133.3C768,128,816,192,864,186.7C912,181,960,107,1008,64C1056,21,1104,11,1152,21.3C1200,32,1248,64,1296,80C1344,96,1392,96,1416,96L1440,96L1440,320L1416,320C1392,320,1344,320,1296,320C1248,320,1200,320,1152,320C1104,320,1056,320,1008,320C960,320,912,320,864,320C816,320,768,320,720,320C672,320,624,320,576,320C528,320,480,320,432,320C384,320,336,320,288,320C240,320,192,320,144,320C96,320,48,320,24,320L0,320Z"></path></svg>
-    <footer class="body-footer-text"><i class="bi bi-badge-cc"></i> 2022 Built by <a class="footer-text" href="https://www.linkedin.com/in/alvianfauzi?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bbsv0i8ZJRNm7zL1KvgPT7A%3D%3D">Alvian Fauzi</a> <br> <a class="social-ig" href=""><i class="bi bi-instagram"></i><i></i></a> <a class="social-github" href=""><i class="bi bi-github"></i></a> <a class="social-linked" href=""><i class="bi bi-linkedin"></i></a></footer>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#eb5e28" fill-opacity="1" d="M0,128L30,154.7C60,181,120,235,180,234.7C240,235,300,181,360,170.7C420,160,480,192,540,186.7C600,181,660,139,720,144C780,149,840,203,900,213.3C960,224,1020,192,1080,170.7C1140,149,1200,139,1260,117.3C1320,96,1380,64,1410,48L1440,32L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></svg>
+    <footer class="body-footer-text"><i class="bi bi-badge-cc"></i> 2022 Built by <a class="footer-text" href="https://www.linkedin.com/in/alvianfauzi?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bbsv0i8ZJRNm7zL1KvgPT7A%3D%3D">Alvian Fauzi</a> <br> <a class="social-ig" href="https://www.instagram.com/alvianfauzii/"><i class="bi bi-instagram"></i><i></i></a> <a class="social-github" href="https://github.com/Alvianfauzi"><i class="bi bi-github"></i></a> <a class="social-linked" href="https://www.linkedin.com/in/alvianfauzi?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B47ehqCylTYOzMml12nnsEw%3D%3D"><i class="bi bi-linkedin"></i></a></footer>
   </body>
   
 </html>

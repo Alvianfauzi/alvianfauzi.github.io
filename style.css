@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+.text {
+  color: black;
+}
 body {
 }
 .animated-1 {
@@ -16,16 +19,16 @@ body {
   background-color: #185a7d;
 }
 body {
-  background-color: #77bcd6;
+  background-color: black;
 }
 .jumbotron {
-  background-color: #185a7d;
-  padding-top: 6rem;
+  background-color: black;
+  padding-top: 8rem;
   padding-bottom: 2rem;
 }
 .nav-item {
   font-size: 20px;
-  background-color: black;
+  background-color: white;
   padding-top: 1rem;
   justify-content: center;
   font-weight: 900;
@@ -39,7 +42,7 @@ body {
 }
 .navbar-brand {
   font-size: 20px;
-  background-color: black;
+  background-color: white;
   padding-top: 1rem;
   justify-content: center;
   font-weight: 900;
@@ -56,7 +59,7 @@ body {
 }
 .container {
   margin-top: 3%;
-  background-color: #77bcd6;
+  background-color: black;
 }
 .nav-item:hover {
   background-position: -100%;
@@ -78,7 +81,7 @@ body {
   font-size: 30px;
   font-weight: 700;
   text-shadow: 5px 5px 5px #14100f;
-  background-color: #77bcd6;
+  background-color: black;
 }
 .small {
   font-size: 20px;
@@ -89,10 +92,9 @@ body {
 }
 .card-header {
   background-color: white;
-  box-shadow: 5px 5px 5px #eb5e28;
 }
 #article {
-  background-color: #77bcd6;
+  background-color: black;
 }
 .card-main {
   background-color: transparent;
@@ -100,15 +102,14 @@ body {
 /* start rotation card */
 div.card {
   background-color: white;
-  box-shadow: 5px 5px 5px #eb5e28;
 }
 div.card:hover {
   transform: scale(1.02);
   box-shadow: 0 10px 30px -5px rgba(10, 16, 34, 0.2);
+  box-shadow: 5px 5px 5px #eb5e28;
 }
 .card-footer {
   background-color: white;
-  box-shadow: 5px 5px 5px #eb5e28;
 }
 .button {
   background-color: #77bcd6;
@@ -172,11 +173,11 @@ div.card:hover {
   margin-left: auto;
   margin-right: auto;
   text-decoration: none;
-  color: white;
+  color: black;
   text-align: center;
 }
 .body-footer-text {
-  background-color: #185a7d;
+  background-color: #eb5e28;
   text-align: center;
   font-size: 20px;
   font-weight: 600;
@@ -185,18 +186,18 @@ div.card:hover {
   color: white;
 }
 .footer-text {
-  color: white;
+  color: black;
   text-decoration: none;
 }
 .footer-text:hover {
-  color: #eb5e28;
+  color: white;
 }
 .social-ig {
   color: white;
   font-size: 25px;
 }
 .social-ig:hover {
-  color: #eb5e28;
+  color: black;
 }
 .social-github {
   padding-left: 1rem;
@@ -204,7 +205,7 @@ div.card:hover {
   font-size: 25px;
 }
 .social-github:hover {
-  color: #eb5e28;
+  color: black;
 }
 .social-linked {
   padding-left: 1rem;
@@ -212,5 +213,37 @@ div.card:hover {
   font-size: 25px;
 }
 .social-linked:hover {
+  color: black;
+}
+.card-img-img {
+  width: 750px;
+  height: 250px;
+}
+.card-title {
+  color: black;
+  text-decoration: none;
+  font-style: none;
+  list-style: none;
+}
+.jumbo {
+  padding-top: 8rem;
+}
+.link-text {
   color: #eb5e28;
+  text-decoration: none;
+}
+.card-header {
+  background-color: #eb5e28;
+  border: 4px solid;
+}
+.card-body1 {
+  border: 4px solid;
+}
+.card-footer {
+  background-color: #eb5e28;
+  border: 4px solid;
+}
+.btn-2 {
+  color: #185a7d;
+  background-color: transparent;
 }
